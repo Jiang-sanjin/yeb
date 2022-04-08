@@ -169,8 +169,8 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
      * 密码加密
      * @param args
      */
- /*   public static void main(String[] args) {
-        String pass = "123456";
+    public static void main(String[] args) {
+        String pass = "12345";
 
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         final String passHash = encoder.encode(pass);
@@ -178,5 +178,5 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
 
         final boolean matches = encoder.matches(pass, passHash);
         System.out.println(matches);
-    }*/
+    }
 }
